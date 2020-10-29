@@ -10,6 +10,7 @@ public class GitNetbeansDemo {
         
         System.out.println(square.getArea());
         System.out.println(square.getPerimeter());
+        System.out.println(square);
         
         Circle circle = new Circle(4.0);
         
