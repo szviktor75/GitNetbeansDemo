@@ -32,4 +32,15 @@ public class Square {
     public double getPerimeter(){
         return  side*4;
     }
+
+    @Override
+    public String toString() {
+        return "Side = " + side + "\n" 
+                + "Area = " + getArea() + "\n" 
+                + "Perimeter = " + getPerimeter();
+    }
+
+    
+    
+    
 }
