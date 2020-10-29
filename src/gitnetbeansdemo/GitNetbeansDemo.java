@@ -1,4 +1,3 @@
-
 package gitnetbeansdemo;
 
 
@@ -11,6 +10,12 @@ public class GitNetbeansDemo {
         
         System.out.println(square.getArea());
         System.out.println(square.getPerimeter());
+        
+        Circle circle = new Circle(4.0);
+        
+        System.out.println(circle.getRadius());
+        System.out.println(circle.getPerimeter());
+        
         
     }
     
